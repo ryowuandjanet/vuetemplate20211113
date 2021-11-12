@@ -10,10 +10,19 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - ESLint
 - Prettier
 
->### 執行
-npm run dev
-http://localhost:3000
->### 編譯
-npm run build
-serve -s dist\
-http://localhost:5000
+### 執行
+>npm run dev <br>
+>http://localhost:3000
+
+### 編譯
+>npm run build <br>
+>serve -s dist\ <br>
+>http://localhost:5000
+
+## 20211113新增內容
+- Netlify
+
+### 執行
+>npm i netlify-cli -g
+>netlify login
+>netlify deploy --prod
