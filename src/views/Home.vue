@@ -1,8 +1,16 @@
 <template>
+  <!-- Tailwind CSS
   <div class="mb-6 text-3xl font-extrabold">Home</div>
   <p class="mb-6">Name is store is: {{ name }}</p>
   <input type="text" v-model="newName" class="p-2 mr-4 border border-gray-600 rounded" />
-  <button @click="saveName" class="p-2 text-white bg-indigo-600 rounded">Submit</button>
+  <button @click="saveName" class="p-2 text-white bg-indigo-600 rounded">Submit</button> -->
+
+  <!-- Bootstrap -->
+  <div class="mb-6 fw-bold fs-3">Home</div>
+  <p class="mb-6">Name is store is: {{ name }}</p>
+  <input type="text" v-model="newName" class="p-2 mr-4 border border border-secondary rounded" />
+  <button @click="saveName" class="m-2 btn btn-primary rounded">Submit</button>
+
 </template>
 
 <script setup>

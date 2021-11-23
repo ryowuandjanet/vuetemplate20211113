@@ -23,6 +23,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - Netlify
 
 ### 執行
+>先修改 netlify.tom 裡的 functions = "[專案名稱]/"
 >npm i netlify-cli -g<br>
 >netlify login<br>
 >netlify deploy --prod
